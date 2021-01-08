@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/round_background"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgFood"
+            android:layout_width="118dp"
+            android:layout_height="135dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/textViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/txtName"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="0dp"
+            android:layout_toEndOf="@+id/txtName"
+            android:layout_toRightOf="@+id/txtName"
+            android:text="TextView"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imgFood"
+            android:text="Gold Fish"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#f86765" />
+
+        <TextView
+            android:id="@+id/imageurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/imgFood"
+            android:text="Gold Fish"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txtDes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtName"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/imgFood"
+            android:text="3-5 years Lifespan(In captivity)Actinopterygii ..."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/txtPrice11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDes"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/imgFood"
+            android:layout_toRightOf="@+id/imgFood"
+            android:text="Rs."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDes"
+            android:layout_marginStart="41dp"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/imgFood"
+            android:layout_toRightOf="@+id/imgFood"
+            android:text="Rs."
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtDes"
+            android:layout_marginStart="157dp"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/imgFood"
+            android:layout_toRightOf="@+id/imgFood"
+            android:text="TextView"
+            />
+
+        <ImageView
+            android:id="@+id/imageViewAddButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/txtDes"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@+id/txtQty"
+            android:layout_toRightOf="@+id/txtQty"
+            app:srcCompat="@drawable/ic_delete_forever_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+    </RelativeLayout>
+</RelativeLayout>

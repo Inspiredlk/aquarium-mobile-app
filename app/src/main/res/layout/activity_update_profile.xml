@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfile"
+    android:orientation="vertical"
+    android:background="#E6E6E6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewFirstName"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/fname"
+                android:textColor="#f86765" />
+
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/edittxt_round_corner"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#515151" />
+
+
+            <TextView
+                android:id="@+id/textViewTelephone"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/tel"
+                android:textColor="#f86765" />
+
+            <EditText
+                android:id="@+id/editTextTelephone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittxt_round_corner"
+                android:ems="10"
+                android:inputType="phone"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#515151" />
+
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/email"
+                android:textColor="#f86765" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/edittxt_round_corner"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textColor="#515151"
+                android:gravity="center"
+                android:enabled="false"/>
+
+            <Button
+                android:id="@+id/buttonUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_round_corner"
+                android:text="@string/continuee"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="30dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

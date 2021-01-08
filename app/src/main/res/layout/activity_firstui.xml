@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f86765"
+    android:orientation="vertical"
+    tools:context=".firstui">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="102dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/aquarium_logo_w" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="AQUARIUM"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:id="@+id/textViewLoding"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="321dp"
+        android:textSize="20dp"
+        android:text="0%"
+        android:textColor="#FFFFFF" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="415dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="#ffffff" />
+
+</LinearLayout>

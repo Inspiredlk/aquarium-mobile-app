@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".DeliveryDetails">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textViewAddress2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Address1"
+                android:textColor="#F44336"
+                />
+
+            <EditText
+                android:background="@drawable/edittxt_round_corner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextAddress2"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:inputType="textPostalAddress"
+                android:textColor="#515151"
+                />
+
+            <TextView
+                android:id="@+id/textViewAddress3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Address2"
+                android:textColor="#F44336"
+                />
+
+            <EditText
+                android:background="@drawable/edittxt_round_corner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextAddress3"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:inputType="textPostalAddress"
+                android:textColor="#515151"
+                />
+
+            <TextView
+                android:id="@+id/textViewAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Post Code"
+                android:textColor="#F44336"
+                />
+
+            <EditText
+                android:id="@+id/editTextAddress1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittxt_round_corner"
+                android:ems="10"
+                android:inputType="textPostalAddress"
+                tools:layout_editor_absoluteX="57dp"
+                android:textColor="#515151"
+                tools:layout_editor_absoluteY="203dp" />
+
+            <TextView
+                android:id="@+id/textViewTel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Telephone"
+                android:textColor="#F44336"
+                />
+
+            <EditText
+                android:background="@drawable/edittxt_round_corner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextTel"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:inputType="phone"
+                android:textColor="#515151"
+                />
+
+            <TextView
+                android:id="@+id/textViewReqDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Required Date"
+                android:textColor="#F44336"
+                />
+
+            <EditText
+                android:background="@drawable/edittxt_round_corner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/editTextDate"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textAlignment="center"
+                android:inputType="date"
+                android:textColor="#515151"
+                />
+
+            <TextView
+                android:id="@+id/textViewEmail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Email"
+                android:textColor="#F44336"
+                />
+
+
+            <TextView
+                android:id="@+id/textViewEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tst@gmail.com"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewDate1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="Order Date"
+                android:textColor="#F44336"
+                />
+            <TextView
+                android:id="@+id/textViewDateDisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2020/12/10"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:id="@+id/buttonContinue"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="continuee"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btn_round_corner"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

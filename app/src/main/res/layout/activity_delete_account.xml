@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteAccount"
+    android:orientation="vertical"
+    android:background="#E6E6E6"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F44336"
+        android:text="If you are no longer interested in using this service you can delete them here." />
+
+
+    <TextView
+        android:text="@string/email"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPassword"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#F44336"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittxt_round_corner"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#515151"
+        android:enabled="false"/>
+
+    <Button
+        android:background="@drawable/btn_round_corner"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/buttonDelete"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/continuee"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

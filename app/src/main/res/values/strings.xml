@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Aquarium</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
+    <string name="login">Login</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="confirmPassword">ConfirmPassword</string>
+    <string name="continuee">Continue</string>
+    <string name="Google">Log in with Google</string>C3x*8T(DsF}7
+    <string name="updateProfile">Update Profile</string>
+    <string name="deleteProfile">Delete Profile</string>
+    <string name="deleteProfileDescription">Deactivate your account</string>
+    <string name="updateProfileDescription">Chage your profile details</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="address">Address</string>
+    <string name="tel">Telephone No</string>
+    <string name="logOut">Log Out</string>
+    <string name="listPrice">Rs. 1750.00</string>
+    <string name="listDescription">Color: Red,Black,...</string>
+    <string name="listName">GoldFish</string>
+    <string name="listDescriptioLong">In the wild, the diet of goldfish consists of crustaceans, insects, and various plant matter. Like most fish, they are opportunistic feeders and do not stop eating on their own accord.</string>
+    <string name="addtoCart">Add to Cart</string>
+    <string name="Description">Description</string>
+    <string name="placeOrder">Place this Order</string>
+</resources>

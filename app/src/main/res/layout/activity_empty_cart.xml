@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmptyCart">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:text="EMPTY!"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#f86765" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="CART IS EMPTY!"
+        android:textSize="16dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#1F1F1F" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/empty" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="ADD YOUR FAVORITE ITEM INTO CART!"
+        android:textSize="16dp"
+        android:textColor="#1F1F1F" />
+
+    <Button
+        android:id="@+id/buttonContinueShopping"
+        android:layout_width="230dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_round_corner"
+        android:text="shop"
+        android:layout_marginLeft="@dimen/normal_text_size"
+        android:layout_marginRight="@dimen/normal_text_size"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

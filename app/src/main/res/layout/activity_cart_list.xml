@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartList"
+    android:orientation="vertical"
+    android:background="#E6E6E6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/gridViewCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"></GridView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Amount"
+        android:layout_marginLeft="@dimen/normal_text_size"
+        android:layout_marginRight="@dimen/normal_text_size"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/textViewCartPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="Rs.0.00"
+        android:layout_marginLeft="@dimen/normal_text_size"
+        android:layout_marginRight="@dimen/normal_text_size"
+        android:textAlignment="textEnd"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#f86765" />
+
+    <Button
+        android:id="@+id/buttonPurchase"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/normal_text_size"
+        android:layout_marginRight="@dimen/normal_text_size"
+        android:background="@drawable/btn_round_corner"
+        android:text="Checkout"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
